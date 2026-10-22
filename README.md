@@ -1,6 +1,6 @@
 # C27 Lecture Checklist
 
-![logo](assets/logo.svg)
+![logo](logo.svg)
 
 A tick-off checklist for the Bakliwal Tutorials C27 Evening COC + Champions batch (7 Sep to 25 Oct 2026): Physics, Maths, Chemistry and the Grand BTest. Progress is saved in your browser (localStorage).
 
@@ -21,5 +21,5 @@ Change dates or tags in `lectures.json`. No build step.
 ## Structure
 - `index.html`, `style.css`, `app.js`: the page
 - `lectures.json`: lecture data
-- `assets/logo.svg`, `assets/icon.svg`: logo and favicon
+- `logo.svg`, `assets/logo.svg`, `assets/icon.svg`: logo and favicon (the header logo is inlined in `index.html`, so it shows even if `assets/` is missing)
 - `manifest.webmanifest`: lets the page be installed on a phone
